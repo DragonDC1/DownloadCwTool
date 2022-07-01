@@ -1,0 +1,105 @@
+<html lang="de" class="no-js">
+
+<head>
+    <title>CWTool</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/sticky-menu.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="page-scroll" href="#page-top">Willkommen</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Willkommen -->
+    <section id="welcome" class="welcome-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1><b>Willkommen auf der offizielen Seite von [JKDO]</b></h1>
+                    <h4>Trete unserem Discord bei: <a href="https://discord.gg/PTAexbJb6C" target="_blank"
+                            rel="nofollow"><i>Öffnen</i></a></h4>
+                    <p>&nbsp;</p>
+
+                    <p>&nbsp;</p>
+                    <div class="cta button alt">
+                        <a onclick="showDiv()">
+                            <img src="https://cdn.pixabay.com/photo/2017/06/13/12/54/download-2398788__340.png"
+                                width="30" height="30" />
+                            CWTool herunterladen
+                        </a>
+                    </div>
+
+                    <form id="hello" style="display:none;">
+                        <label><span style="margin-top: 30px;"></b></span></label><br>
+                        <label><span style="font-size: 18px;"><b>Passwort eingeben:</b></span></label><br>
+                        <input type="text" id="name" required>
+                        <button type="button" onclick="showValue()">
+                            <span style="color: #FF0000"><b>Prüfen</b></span></button>
+                    </form>
+                    <div id="ans"></div>
+
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Datenschutz -->
+    <section id="datenschutz" class="datenschutz-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Datenschutz</h1>
+
+                    <h4><a href="datenschutzerklarung.html" target="_blank"
+                            style="color:#90c3de"><i>Datenschutzerklärung</i></a></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="back2Top" title="Nach oben" href="#">&#10148;</a>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/sticky-menu.js"></script>
+
+    <a href="CWTool.jar" download="WAS" id="VVMMhYuPHjDJzJFEHgbtzHVbA"><button>Download</button></a>
+
+    <script>
+        var dbERaX8ntqNDGx0C = "Adu$a";
+
+        function showDiv() {
+            document.getElementById('hello').style.display = "block";
+        }
+
+        function showValue() {
+            var pw = document.getElementById('name').value;
+
+            if (pw == dbERaX8ntqNDGx0C) {
+                document.getElementById('VVMMhYuPHjDJzJFEHgbtzHVbA').click();
+            }
+        }
+    </script>
+
+</body>
+
+</html>
