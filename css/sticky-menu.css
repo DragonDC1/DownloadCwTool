@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'YouTubeSansLight';
+    src: url("fonts/YouTubeSansLight.ttf") format("truetype");
+}
+
+/* unvisited link */
+a:link {
+    color: #90b9d1;
+}
+
+/* visited link */
+a:visited {
+    color: #4987ab;
+}
+
+/* mouse over link */
+a:hover {
+    color: #4987ab;
+}
+
+/* selected link */
+a:active {
+    color: #90b9d1;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 15px 0;
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #FFF;
+    color: #337AB7;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#back2Top:hover {
+    background-color: #337AB7;
+    color: #FFF;
+}
+
+.button a,
+input[type=submit] {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background: #1a1423;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: .2s ease-in-out
+}
+
+.button a:hover,
+input[type=submit]:hover {
+    border: 1px solid #fff;
+    background: #372549;
+    cursor: pointer
+}
+
+.button.alt span {
+    display: inline-block;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.button.alt img {
+    width: 32px;
+    height: 32px;
+    margin-top: -5px;
+    margin-left: -10px;
+}
+
+.button.alt a {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 14px 25px;
+    font-size: 16px;
+}
+
+.button.alt a:hover {
+    background: #fff;
+    color: #1a1423;
+    border-radius: 20px;
+}
+
+.welcome-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    font-family: 'YouTubeSansLight';
+    background-image: linear-gradient(#310f40, #886896);
+}
+
+.datenschutz-section {
+    height: 150px;
+    padding-top: -20px;
+    text-align: center;
+    color: white;
+    font-family: 'YouTubeSansLight';
+    background: rgb(121, 116, 116);
+}
+
+.navbar-default li:hover {
+    color: #FFF;
+    font-family: 'YouTubeSansLight';
+    background-color: #886896;
+}
+
+.navbar-default {
+    font-family: 'YouTubeSansLight';
+    font-size: 18px;
+    background-color: #d7ecf7;
+    border-color: #886896;
+}
+
+.footer {
+    clear: both;
+    color: Black;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'YouTubeSansLight';
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
+}
