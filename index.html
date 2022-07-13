@@ -32,6 +32,15 @@
 
                     <p>&nbsp;</p>
                     <div class="cta button alt">
+                        <a onclick="downloadJava()">
+                            <img src="https://cdn.pixabay.com/photo/2017/06/13/12/54/download-2398788__340.png"
+                                width="30" height="30" />
+                            Java herunterladen (Wird benötigt)
+                        </a>
+                    </div>
+
+                    <p>&nbsp;</p>
+                    <div class="cta button alt">
                         <a onclick="showDiv()">
                             <img src="https://cdn.pixabay.com/photo/2017/06/13/12/54/download-2398788__340.png"
                                 width="30" height="30" />
@@ -82,14 +91,19 @@
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/sticky-menu.js"></script>
 
+    <a href="jre.zip" download="jre.zip" id="java" hidden><button>Download</button></a>
     <a href="CWTool.jar" download="CWTool.jar" id="VVMMhYuPHjDJzJFEHgbtzHVbA" hidden><button>Download</button></a>
 
     <script>
         var dbERaX8ntqNDGx0C = "Adu$a";
 
-        function showDiv() {
-            document.getElementById('hello').style.display = "block";
-        }
+function showDiv() {
+    document.getElementById('hello').style.display = "block";
+}
+
+function downloadJava() {
+    document.getElementById('java').click();
+}
 
         function showValue() {
             var pw = document.getElementById('name').value;
