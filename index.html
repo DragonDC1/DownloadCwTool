@@ -41,6 +41,15 @@
 
                     <p>&nbsp;</p>
                     <div class="cta button alt">
+                        <a onclick="downloadLauncher()">
+                            <img src="https://cdn.pixabay.com/photo/2017/06/13/12/54/download-2398788__340.png"
+                                width="30" height="30" />
+                            Launcher herunterladen
+                        </a>
+                    </div>
+
+                    <p>&nbsp;</p>
+                    <div class="cta button alt">
                         <a onclick="showDiv()">
                             <img src="https://cdn.pixabay.com/photo/2017/06/13/12/54/download-2398788__340.png"
                                 width="30" height="30" />
@@ -92,7 +101,8 @@
     <script src="js/sticky-menu.js"></script>
 
     <a href="https://download.oracle.com/java/17/archive/jdk-17.0.2_windows-x64_bin.exe" download="https://download.oracle.com/java/17/archive/jdk-17.0.2_windows-x64_bin.exe" id="java" hidden><button>Download</button></a>
-    <a href="CWTool.zip" download="CWTool.zip" id="VVMMhYuPHjDJzJFEHgbtzHVbA" hidden><button>Download</button></a>
+    <a href="CWTool.jar" download="CWTool.jar" id="VVMMhYuPHjDJzJFEHgbtzHVbA" hidden><button>Download</button></a>
+    <a href="Launcher.zip" download="Launcher.zip" id="launcher" hidden><button>Download</button></a>
 
     <script>
         var dbERaX8ntqNDGx0C = "Adu$a";
@@ -103,6 +113,10 @@ function showDiv() {
 
 function downloadJava() {
     document.getElementById('java').click();
+}
+
+function downloadLauncher() {
+    document.getElementById('launcher').click();
 }
 
         function showValue() {
